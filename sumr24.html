@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idk archive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      cursor: pointer;
+      /* Indicate that the page is clickable */
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      max-width: 1920px;
+      /* 640px * 3 */
+    }
+
+    .container img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 1200px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 800px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+
+<body>
+  <div class="container">
+    <img src="images/summer24/LOOKBOOK/1.png" loading="lazy" alt="Image 1">
+    <img src="images/summer24/LOOKBOOK/2.png" loading="lazy" alt="Image 2">
+    <img src="images/summer24/LOOKBOOK/3.png" loading="lazy" alt="Image 3">
+    <img src="images/summer24/LOOKBOOK/4.jpg" loading="lazy" alt="Image 4">
+    <img src="images/summer24/LOOKBOOK/5.jpg" loading="lazy" alt="Image 5">
+    <img src="images/summer24/LOOKBOOK/6.jpg" loading="lazy" alt="Image 6">
+    <img src="images/summer24/LOOKBOOK/7.jpg" loading="lazy" alt="Image 7">
+    <img src="images/summer24/LOOKBOOK/8.jpg" loading="lazy" alt="Image 8">
+    <img src="images/summer24/LOOKBOOK/9.png" loading="lazy" alt="Image 9">
+    <img src="images/summer24/LOOKBOOK/10.png" loading="lazy" alt="Image 10">
+    <img src="images/summer24/LOOKBOOK/11.png" loading="lazy" alt="Image 11">
+    <img src="images/summer24/LOOKBOOK/12.png" loading="lazy" alt="Image 12">
+  </div>
+
+  <script>
+    document.body.addEventListener('click', function () {
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+
+</html>

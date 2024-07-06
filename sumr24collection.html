@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idk archive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+  </head>
+  <style>
+
+    @font-face {
+      font-family: "Pixelated MS Sans Serif";
+      src: url("ms-sans-serif-1.otf") format("opentype");
+      font-weight: normal;
+      font-style: normal;
+    }
+    
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .back-button {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background-color: transparent;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+      text-decoration:none;
+      color: black;
+    }
+
+    button {
+      font-size: 16px;
+      font-family: "Pixelated MS Sans Serif", Arial;
+      padding: 10px 20px;
+      margin: 10px;
+      cursor: pointer;
+      transition: transform 2s;
+      border: none;
+      background: #c0c0c0;
+      box-shadow: inset -1px -1px #0a0a0a,
+        inset 1px 1px #ffffff, inset -2px -2px #808080,
+        inset 2px 2px #dfdfdf;
+      border-radius: 0;
+      color: black;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    .container img {
+      width: 20%;
+      height: auto;
+      cursor: pointer;
+    }
+
+    @media (max-width: 1200px) {
+      .container img {
+        width: 30%;
+      }
+    }
+
+    @media (max-width: 800px) {
+      .container img {
+        width: 50%;
+      }
+    }
+  </style>
+
+<body>
+  <button class="back-button" onclick="location.href='index.html'"> back</button>
+
+  <div class="container">
+    <img src="images/summer24/LOOKBOOK/13.png" loading="lazy" onclick="location.href = '/sumr24.html';">
+  </div>
+
+  <script>
+  </script>
+</body>
+
+</html>
